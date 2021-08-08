@@ -1,0 +1,35 @@
+<html>
+  <head>
+     <meta name="description" 
+content="This is an example of managing daily tasks">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">    
+  </head>
+  <body>
+    <h1> Todo List</h1>
+    <center> Daily task performed </center>
+
+    <div class="container">
+  
+        <label for="new-task">Add Task</label>
+        <input id="new-task" type="text"><button>Add</button>
+      </p>
+     
+      
+ <ul id="incomplete-tasks">
+          <li class="editMode"><label>Pay bills</label><input type="text" value="Paybills"><input type="checkbox">
+            <button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><label>Go Shopping</label><input type="text" value="Go Shopping"><input type="checkbox"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><label>See the Doctor</label><input type="text"><input type="checkbox" checked><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
